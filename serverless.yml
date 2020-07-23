@@ -15,7 +15,7 @@ service: session1-resnet34
 provider:
   name: aws
   runtime: python3.8
-  region: eu-central-1
+  region: ap-south-1
   timeout: 60
   environment:
     S3_BUCKET: tsai-session1-models
@@ -63,7 +63,7 @@ functions:
     timeout: 60
     events:
       - http:
-          path: detect
+          path: classify_image
           method: post
           cors: true
 
