@@ -57,7 +57,7 @@ package:
     - model/**
 
 functions:
-  detect_damage:
+  classify_image:
     handler: handler.classify_image
     memorySize: 3008
     timeout: 60
