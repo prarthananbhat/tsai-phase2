@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resnet34</title>
+</head>
+<body>
+<div class = "grid-x gird-margin-x" style = "margin-top: 2%;">
+    <div class ="large-12-cell">
+        <h4 id = "ImageClassifiers">mageClassifiers</h4>
+    </div>
+    <div class ="large-4-cell">
+        <label for = "resnet34FileUpload">Please choose the image file you want to classify</label>
+        <input type="file", id = "resnet34FileUpload">
+    </div>
+    <div class ="large-8-cell">
+        <input type="button", id = "btnResnetUpload", class = "button", value = "classify Image">
+    </div>
+    <div>
+        <p id ="result"></p>
+    </div>
+</div>
+</body>
+<script src = "js/jquery-3.3.1.min.js"></script>
+<script src = "js/upload.js"></script>
+</html>
