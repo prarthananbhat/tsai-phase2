@@ -12,6 +12,7 @@ Model Traning
 * Load the pretrained model and only train the last layers for the custom faces
   
 Below is the loss curve for 500 epochs
-![Loss curve](/images/logo.png)
+
+![Loss curve](https://github.com/prarthananbhat/tsai-phase2/blob/master/Session-04/Loss_curve.png?raw=true)
 
 
